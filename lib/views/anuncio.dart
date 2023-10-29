@@ -25,7 +25,6 @@ void main() {
       ..src = 'ad copy.html'
       ..style.border = 'none',
   );
-
 }
 
 class MyApp extends StatelessWidget {
@@ -39,10 +38,10 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              Center(child: adsenseAdsView1()),Center(child: adsenseAdsView()) 
+              Center(child: adsenseAdsView1()),
+              Center(child: adsenseAdsView())
             ],
           ),
-          
         ),
       ),
     );
@@ -58,6 +57,7 @@ Widget adsenseAdsView() {
     ),
   );
 }
+
 Widget adsenseAdsView1() {
   return const SizedBox(
     height: 100.0,

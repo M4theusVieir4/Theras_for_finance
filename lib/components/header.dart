@@ -9,7 +9,7 @@ class HeaderTheras extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: const Color.fromRGBO(0, 95, 156, 50),
+      backgroundColor: Color.fromRGBO(113, 99, 255, 1),
       centerTitle: true,
       title: Flex(
         direction: Axis.horizontal,

@@ -11,7 +11,7 @@ class Footer extends StatelessWidget {
       right: 0,
       child: Container(
         height: 50,
-        color: const Color.fromRGBO(0, 95, 156, 50),
+        color: Color.fromRGBO(113, 99, 255, 1),
         child: const Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
